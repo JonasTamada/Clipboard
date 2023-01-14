@@ -1,0 +1,169 @@
+.keep,
+.access {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 2em;
+}
+
+.keep__title,
+.access__title {
+
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.access__title--second {
+
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.access__second {
+
+    margin: 1em 0;
+}
+
+.keep__text,
+.access__text {
+
+    color: var(--azul-acinzentado);
+    font-size: 16px;
+    text-align: center;
+}
+
+.keep__img,
+.access__img {
+
+    width: 100%;
+    margin: 2em 0;
+}
+
+.keep__block--item,
+.access__block--item {
+
+    text-align: center;
+    margin: 2em 0;
+}
+
+.keep__subtitle,
+.access__subtitle {
+
+    color: black;
+    font-weight: 600;
+}
+
+.keep__subtext,
+.access__subtext {
+
+    color: var(--azul-acinzentado);
+    font-size: 16px;
+    margin-top: 0.5em;
+}
+
+.access__block--item {
+
+    color: var(--azul-acinzentado);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    padding-top: 2.5em;
+    background-position: top;
+}
+
+.blacklist {
+
+    background-image: url("../images/icon-blacklist.svg");
+}
+
+.text {
+
+    background-image: url("../images/icon-text.svg");
+}
+
+.preview {
+
+    background-image: url("../images/icon-preview.svg");
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .keep {
+
+        padding: 4em 0;
+    }
+
+    .keep__first,
+    .access__first {
+
+        width: 40%;
+    }
+
+    .keep__title,
+    .access__title,
+    .access__title--second {
+
+        font-size: 36px;
+        margin-bottom: 1em;
+}
+
+    .keep__box {
+
+        display: flex;
+        column-gap: 40px;
+        margin: 1em 0;
+    }
+
+    .keep__img {
+
+        width: 60%;
+        object-position: -2em;
+    }
+
+    .keep__block {
+
+        margin: 2em;
+    }
+
+    .keep__subtitle {
+
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .keep__subtext {
+
+        text-align: left;
+        line-height: 1.5;
+        width: 60%;
+        margin-bottom: 5em;
+    }
+
+    .access__img {
+
+        width: 60%;
+        margin: 4em 0;
+    }
+
+    .access__subtitle {
+
+        font-size: 24px;
+    }
+
+    .access__block {
+
+        display: flex;
+        margin: 0 5em;
+    }
+
+    .access__block--item {
+
+        width: 50%;
+    }
+}

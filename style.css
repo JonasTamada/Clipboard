@@ -1,0 +1,14 @@
+:root {
+
+    --ciano: hsl(171, 66%, 44%);
+    --azul: hsl(233, 100%, 69%);
+    --azul-escuro: hsl(210, 10%, 33%);
+    --azul-acinzentado: hsl(201, 11%, 66%);
+}
+
+html {
+
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
